@@ -4,8 +4,6 @@ metadata:
   name: website-ingress
   labels:
     app: argocdrocks
-  annotations:
-    ingress.kubernetes.io/ssl-redirect: "false"
 spec:
   rules:
   - http:
